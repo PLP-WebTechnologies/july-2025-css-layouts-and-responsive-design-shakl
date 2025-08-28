@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Bliss - Responsive Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>☕ Café Bliss</h1>
+    <nav class="nav-flex">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Freshly Brewed Coffee & Homemade Pastries</h2>
+    <p>Start your day with warmth and flavor.</p>
+    <p class="swahili-saying">Kila asubuhi ni mwanzo mpya.</p>
+    <button>Order Now</button>
+  </section>
+
+  <!-- Main Layout (Grid) -->
+  <main class="grid-container">
+    <!-- Content Area -->
+    <section class="content">
+      <h2 id="about">About Us</h2>
+      <p>We bake daily and serve the finest coffee blends. Cozy ambiance guaranteed!</p>
+      <p class="swahili-saying">Pamoja tunashona hadithi ya ladha.</p>
+    </section>
+
+    <!-- Sidebar / Featured Items -->
+    <aside class="sidebar">
+      <h2>Featured</h2>
+      <div class="card-flex">
+        <div class="card">☕ Latte</div>
+        <div class="card">🥐 Croissant</div>
+        <div class="card">🍩 Donut</div>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu-section">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">Espresso</div>
+      <div class="menu-item">Cappuccino</div>
+      <div class="menu-item">Latte</div>
+      <div class="menu-item">Croissant</div>
+      <div class="menu-item">Muffin</div>
+      <div class="menu-item">Cinnamon Roll</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Café Bliss. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
